@@ -15,13 +15,21 @@ For the purpose of this module (Systems Development 2) we will consider the term
 
 ### RESTful
 
-
 ## The eBay APIs
 
 For the assignment you are required to use data from an online shopping service.
 
+### RESTful service operations
 
-## CRUD
+Remember these using acronym *CRUD*.
+
+**Create** Implemented using HTTP POST, which creates the resource with the given URI.
+
+**Read**  Implemented using HTTP GET, which reads the resource and returns its value.
+
+**Update**  Implemented using HTTP PUT, which modifies an existing resource.
+
+**Delete**  Implemented using HTTP DELETE, which makes the resource inaccessible using the specified URI.
 
 ## HTTP and URIs
 
@@ -45,4 +53,7 @@ The term URLs is generally used where the scheme (network protocol) is HTTP or H
 
 ## JSON and XML
 
+## References
+
+Sommerville, I. 2019. . Engineering Software Products. Pearson.
 
