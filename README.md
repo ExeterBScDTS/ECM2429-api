@@ -33,5 +33,16 @@ The term URLs is generally used where the scheme (network protocol) is HTTP or H
 
 ## HTTP verbs
 
+## HTTP headers
+
+### Authentication
+
+### Content type
+
+### Others
+
+* Language
+
+## JSON and XML
 
 
