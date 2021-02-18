@@ -39,6 +39,8 @@ URI = scheme:[//authority]path[?query][#fragment]
 
 The term URLs is generally used where the scheme (network protocol) is HTTP or HTTPS in which case the ```authority``` is a network ```host``` and ```port``` (80 and 443 are the defaults).
 
+HTTP protocol consists of request and response messages. All modern programming languages have libraries that simplify the use of HTTP.  In Python we typically use the ```requests``` library.
+
 ## HTTP verbs
 
 ## HTTP headers
