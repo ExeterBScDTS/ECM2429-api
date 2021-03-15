@@ -2,8 +2,7 @@
 
 ## Application Programming Interfaces (APIs)
 
-The term API is now widely used in programming. The meaning of the term has changed over time, and even 
-today it can be considered something quite vague - the interface between one software system and another.
+The term API is now widely used in programming, although The meaning has changed over time, and can be quite vague - often just *the interface between one software system and another*.
 
 APIs are typically documented with a description of how to make calls, and the format of the resulting data.
 
@@ -13,23 +12,7 @@ For the purpose of this module (Systems Development 2) we will consider the term
 
 ## Web APIs
 
-### RESTful
-
-## The eBay APIs
-
-For the assignment you are required to use data from an online shopping service.
-
-### RESTful service operations
-
-Remember these using acronym *CRUD*.
-
-**Create** Implemented using HTTP POST, which creates the resource with the given URI.
-
-**Read**  Implemented using HTTP GET, which reads the resource and returns its value.
-
-**Update**  Implemented using HTTP PUT, which modifies an existing resource.
-
-**Delete**  Implemented using HTTP DELETE, which makes the resource inaccessible using the specified URI.
+A Web API is an API where the interface is one or more URIs (or URLs).  
 
 ## HTTP and URIs
 
@@ -41,7 +24,19 @@ The term URLs is generally used where the scheme (network protocol) is HTTP or H
 
 HTTP protocol consists of request and response messages. All modern programming languages have libraries that simplify the use of HTTP.  In Python we typically use the ```requests``` library.
 
-## HTTP verbs
+In most cases Web APIs are *stateless*, which means that the service providing the API does not maintain states, or a session, from one call to the next.  Such services are called RESTful, where REST is an acronym of **Representational state transfer**.
+
+## RESTful service operations and HTTP verbs
+
+Remember these using acronym *CRUD*.
+
+**Create** Implemented using HTTP POST, which creates the resource with the given URI.
+
+**Read**  Implemented using HTTP GET, which reads the resource and returns its value.
+
+**Update**  Implemented using HTTP PUT, which modifies an existing resource.
+
+**Delete**  Implemented using HTTP DELETE, which makes the resource inaccessible using the specified URI.
 
 ## HTTP headers
 
@@ -54,6 +49,10 @@ HTTP protocol consists of request and response messages. All modern programming 
 * Language
 
 ## JSON and XML
+
+## The eBay APIs
+
+For the assignment you are required to use data from an online shopping service.
 
 ## References
 
