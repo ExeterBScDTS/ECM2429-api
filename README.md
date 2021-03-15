@@ -12,7 +12,12 @@ For the purpose of this module (Systems Development 2) we will consider the term
 
 ## Web APIs
 
-A Web API is an API where the interface is one or more URIs (or URLs).  
+A Web API is an API where the interface is one or more URIs (or URLs), that refer to services 
+provided by a web server.
+
+### Client-server overview
+
+<https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview>
 
 ## HTTP and URIs
 

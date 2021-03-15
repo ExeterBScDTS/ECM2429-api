@@ -1,10 +1,8 @@
 # Web APIs
 
-Client-server overview
-
-<https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview>
-
 ## NASA NEO api
+
+An API to discover details of Near Earth Objects.
 
 <https://cneos.jpl.nasa.gov/>
 
